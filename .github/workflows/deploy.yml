@@ -46,5 +46,5 @@ jobs:
           key: ${{ secrets.CONTABO_SERVER_SSH_KEY }}
           script: |
             cd ${{ secrets.PROJECT_PATH }}
-            docker compose pull converter
-            docker compose up -d converter
+            docker compose pull nest
+            docker compose up -d nest
