@@ -1,6 +1,6 @@
 services:
   nest:
-    image: ghcr.io/jadenyunn/converter:latest
+    image: ghcr.io/jwyunn/converter:latest
     container_name: nest-app
     restart: unless-stopped
     ports:
